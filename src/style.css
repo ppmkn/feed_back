@@ -1,0 +1,262 @@
+label,input {
+    display: inline-block;
+    vertical-align: middle;
+}
+.page{
+    display: flex;
+    gap:42px;
+    margin: 2.97vh 6.37vh 25.03vh 6.37vh;
+    align-items: center;
+}
+.container{
+    width: 400px;
+}
+.container-heading h1{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.container-heading p{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.container-input{
+    display: flex;
+    flex-direction: column;
+
+}
+.container-input input{
+    width: 400px;
+    height: 60px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    border: 1px solid rgba(162, 159, 158, 0.30);
+    background: #FFF;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.10);
+
+    text-align: center;
+    color: #A29F9E;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.connection-input{
+    display: flex;
+    justify-content: space-around;
+}
+.connection p{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+button{
+    margin-top:34px;
+    width: 400px;
+    height: 60px;
+    flex-shrink: 0;
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    border-radius: 10px;
+    background: #F00;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.10);
+}
+.checkbox-policy p{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.checkbox-policy a{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.policy{
+    display: none;
+    max-width: 919px;
+    max-height: 436px;
+    border-radius: 10px;
+    background: rgba(255, 0, 0, 0.03);
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.10);
+    padding: 22px 24px 19px 28px;
+}
+.policy p, ul{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 150% */
+}
+.policy a{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    text-decoration-line: underline;
+}
+
+
+input[type="radio"]{
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+
+    border-radius: 15px;
+    background: #F00;
+}
+input[type="checkbox"]{
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+
+    border-radius: 3px;
+    background: #F00;
+}
+
+.input-field.highlight{
+    border: 2px solid red;
+    box-shadow: 0px 0px 10px 0px rgba(255,0,0,.67);
+}
+@media (max-width: 1199.98px){
+    .page{
+        flex-direction: row;
+    }
+    .policy{
+        display: none;
+        max-height: 100%;
+        border-radius: 10px;
+    }
+}
+@media (max-width: 992px){
+    .page{
+        flex-direction: column;
+    }
+    .policy{
+        display: none;
+        max-height: 100%;
+        border-radius: 10px;
+    }
+}
+@media (max-width: 768px){
+    .page{
+        flex-direction: column;
+    }
+}
+@media (max-width: 400px){
+    .page{
+        display: flex;
+        flex-direction: column;
+        max-width: 320px;
+        margin: auto;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        max-width: 320px;
+        margin: auto auto 30px auto;
+    }
+    .container-heading h1{
+        /*text-align: center;*/
+        color: #000;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .container-heading p{
+        max-width: 300px;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .container-input input{
+        display: flex;
+        width: 300px;
+        height: 60px;
+    }
+    .connection-input{
+        max-width: 320px;
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        margin-top:34px;
+        width: 300px;
+        height: 60px;
+        flex-shrink: 0;
+    
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border: none;
+        border-radius: 10px;
+        background: #F00;
+        box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.10);
+    }
+    .checkbox-policy{
+        max-width: 320px;
+        display: flex;
+    }
+    .checkbox-policy p{
+        color: #000;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .checkbox-policy a{
+        color: #000;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration-line: underline;
+    }
+    .policy{
+        display: none;
+        max-width: 320px;
+        max-height: 100%;
+        border-radius: 10px;
+        background: rgba(255, 0, 0, 0.03);
+        box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.10);
+        padding: 6px 11px 5px 11px;
+    }
+}

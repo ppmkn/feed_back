@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="src/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Обратная связь</title>
+</head>
+<body>
+    <div class="page">
+        <div class="container">
+            <form action="action_page.html">
+                <div class="container">
+                    <div class="container-heading">
+                        <h1>Обратная связь</h1>
+                        <p>Оставьте ваши контактные данные и мы свяжемся с вами в течение одного рабочего дня</p>
+                    </div>
+                    <div class="container-input">
+                        <input class="input-field" type="text" placeholder="Имя" minlength="3" maxlength="12" required>
+                        <br>
+                        <input class="input-field" type="tel" placeholder="+7 (___) ___-__-__" pattern="[+]{1}[7]{1}[0-9]{10}" minlength="12" maxlength="12" required>
+                    </div>                                    
+                    <br>
+                    <div class="connection">
+                        <p>Выберите удобный способ связи:</p>
+                            
+                        <div class="connection-input">
+                            <div>
+                                <input class="input-field" type="radio" name="communication">
+                                <label for="communication"><p>перезвонить</p></label>
+                            </div>
+                            <div>
+                                <input class="input-field" type="radio" name="communication ">
+                                <label for="communication"><p>написать в Telegram</p></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-send">
+                        <button id="submit-button" type="submit" class="registerbtn">Отправить</button>
+                    </div>
+                </div>
+    
+                <div class="checkbox-policy">
+                    <input class="input-field" type="checkbox" name="pch" required>
+                    <label for="pch"><p>я согласен с <a class="link-policy" href="#">правилами обработки</a> моих<br> персональных данных.</p></label>
+                </div>
+            </form>
+        </div>  
+       <div class="policy">
+            <p>Компания ООО «Тест» с уважением относится к информации личного характера, касающейся посетителей 
+                Сайта «lemurteam.ru» и его поддоменов (далее – «Сайт»). 
+                <br>Настоящим компания ООО «Тест» (далее – Компания) 
+                подтверждает конфиденциальность обработки Ваших данных в соответствии с законодательством 
+                Российской Федерации в сфере защиты информации, а также в соответствии с ФЗ «О персональных данных» №152-ФЗ. 
+                <br>В качестве пользователя Сайта (далее – «Пользователь») Вы соглашаетесь с предоставлением Ваших данных 
+                компании ООО «Тест», для их обработки (совершение любых действий с использованием средств автоматизации или 
+                без, в том числе на сбор, запись, систематизацию, накопление, хранение, уточнение, извлечение, использование, 
+                передачу, обезличивание, блокирование, удаление, уничтожение) Ваших персональных данных, указанных в 
+                Заявлении, в целях консультирования, представления информации о продуктах, маркетинговых исследований, 
+                проводимых Компанией, а также в целях продвижения на рынке товаров и/или услуг Компании и/или третьих лиц. 
+                Вы соглашаетесь с тем, что Компания вправе поручить обработку моих персональных данных третьим лицам.
+                <br>Согласие дается на обработку следующих персональных данных:</p> 
+                <ul>
+                    <li>персональные данные, не являющиеся специальными 
+                        или биометрическими: номера контактных телефонов; адреса электронной почты; место работы и занимаемая 
+                        должность;</li>
+                    <li>пользовательские данные (сведения о местоположении; тип и версия ОС; тип и версия Браузера; 
+                        тип устройства и разрешение его экрана; источник откуда пришел на сайт пользователь; с какого сайта или 
+                        по какой рекламе; язык ОС и Браузера; какие страницы открывает и на какие кнопки нажимает пользователь; 
+                        ip-адрес).</li>   
+                </ul>
+                 <p>Мы исключаем передачу Ваших данных третьим лицам, кроме компаний, уполномоченных на обслуживание 
+                 наших клиентов. Вы имеете право запросить и получить информацию о собранных нами сведениях о Вас, потребовать 
+                 исправления, удаления или блокирования Ваших данных. Если у Вас есть возражения против обработки Ваших данных,
+                 в любой момент Вы можете аннулировать Ваше согласие по e-mail или письменно по адресу: Тест Настоящая 
+                 Политика конфиденциальности применяется только к сайту «test.ru». Сайт не контролирует и не несет 
+                 ответственность за сайты третьих лиц, на которые Вы может перейти по ссылкам, доступным на Сайте. 
+                 Мы не проверяем достоверность персональных данных, предоставляемых Пользователем Сайта. Настоящая Политика 
+                 может быть изменена или прекращена нами в одностороннем порядке без предварительного уведомления 
+                 Пользователя. Новая редакция Политики вступает в силу с момента ее размещения на Сайте, если иное не 
+                 предусмотрено новой редакцией Политики. Действующая редакция Политики находится на Сайте в сети Интернет 
+                 по адресу <a href="#">http://test.ru/privacy-policy.html</a>.</p>
+        </div>
+    </div>
+    <script>
+        console.log("Script loaded"); // Проверка, что скрипт загружен
+
+        document.addEventListener("DOMContentLoaded", () => {
+        console.log("DOMContentLoaded");
+
+        const linkElement = document.querySelector(".link-policy");
+        console.log(linkElement); // Проверка, что linkElement был найден
+        const policyElement = document.querySelector(".policy");
+        console.log(policyElement); // Проверка, что policyElement был найден
+
+        if (linkElement && policyElement) {
+            linkElement.addEventListener("click", (event) => {
+            event.preventDefault();
+            policyElement.style.display = "block";
+            });      
+        }
+        });
+        document.addEventListener("DOMContentLoaded", function() {
+        const inputFields = document.querySelectorAll(".input-field");
+
+        inputFields.forEach(input => {
+            input.addEventListener("input", function() {
+                this.classList.remove("highlight");
+            });
+        });
+
+        const radioCheckboxes = document.querySelectorAll(".radio-field, .checkbox-field");
+
+        radioCheckboxes.forEach(input => {
+            input.addEventListener("click", function() {
+                this.classList.remove("highlight");
+            });
+        });
+
+        const submitButton = document.querySelector("#submit-button");
+        if (submitButton) {
+            submitButton.addEventListener("click", function(event) {
+                inputFields.forEach(input => {
+                    if (!input.value && !input.checked) {
+                        input.classList.add("highlight");
+                    }
+                });
+
+                if (document.querySelector(".highlight")) {
+                    event.preventDefault();
+                }
+            });
+        }
+        });
+    </script>
+</body>
+</html>
